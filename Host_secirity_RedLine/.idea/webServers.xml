@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1cc18f1b-58bc-4925-813e-3c44de82b0f6" name="172.171.51.106">
+        <fileTransfer rootFolder="/home/hisec" accessType="SFTP" host="172.171.51.106" port="22" sshConfigId="38892049-599b-472d-abbf-564e5a2cd01b" sshConfig="172.171.51.106">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

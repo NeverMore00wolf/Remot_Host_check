@@ -1,0 +1,1141 @@
+------------ Wed Feb 24 09:33:36 CST 2021 ------------
+[[0;32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-root.
+[[0;32m  OK  [0m] Reached target Initrd Root Device.
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-swap.
+         Starting Resume from hibernation using device /dev/mapper/cl_master-swap...
+[[0;32m  OK  [0m] Started Resume from hibernation using device /dev/mapper/cl_master-swap.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Started dracut initqueue hook.
+         Starting File System Check on /dev/mapper/cl_master-root...
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+[[0;32m  OK  [0m] Started File System Check on /dev/mapper/cl_master-root.
+         Mounting /sysroot...
+[[0;32m  OK  [0m] Mounted /sysroot.
+[[0;32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[0;32m  OK  [0m] Started Reload Configuration from the Real Root.
+[[0;32m  OK  [0m] Reached target Initrd File Systems.
+[[0;32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[0;32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+         Starting Plymouth switch root service...
+[[0;32m  OK  [0m] Stopped target Timers.
+[[0;32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[0;32m  OK  [0m] Stopped target Remote File Systems.
+[[0;32m  OK  [0m] Stopped target Initrd Default Target.
+[[0;32m  OK  [0m] Stopped target Basic System.
+[[0;32m  OK  [0m] Stopped target Slices.
+[[0;32m  OK  [0m] Stopped target Paths.
+[[0;32m  OK  [0m] Stopped target Sockets.
+[[0;32m  OK  [0m] Stopped target Initrd Root Device.
+[[0;32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Stopped dracut initqueue hook.
+         Starting Setup Virtual Console...
+[[0;32m  OK  [0m] Stopped target System Initialization.
+[[0;32m  OK  [0m] Stopped target Swap.
+         Stopping udev Kernel Device Manager...
+[[0;32m  OK  [0m] Stopped Apply Kernel Variables.
+[[0;32m  OK  [0m] Stopped Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[0;32m  OK  [0m] Stopped target Local File Systems.
+[[0;32m  OK  [0m] Stopped target Local File Systems (Pre).
+[[0;32m  OK  [0m] Started Cleaning Up and Shutting Down Daemons.
+[[0;32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[0;32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[0;32m  OK  [0m] Stopped Create list of required static device nodes for the current kernel.
+         Stopping Hardware RNG Entropy Gatherer Daemon...
+[[0;32m  OK  [0m] Stopped dracut pre-udev hook.
+[[0;32m  OK  [0m] Stopped dracut cmdline hook.
+[[0;32m  OK  [0m] Closed udev Control Socket.
+[[0;32m  OK  [0m] Closed udev Kernel Socket.
+         Starting Cleanup udevd DB...
+[[0;32m  OK  [0m] Stopped Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Cleanup udevd DB.
+[[0;32m  OK  [0m] Started Plymouth switch root service.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Reached target Switch Root.
+         Starting Switch Root...
+
+Welcome to [0;31mCentOS Linux 8 (Core)[0m!
+
+[[0;32m  OK  [0m] Stopped Switch Root.
+[[0;32m  OK  [0m] Stopped Journal Service.
+         Starting Journal Service...
+[[0;32m  OK  [0m] Set up automount Arbitrary Executable File Formats File System Automount Point.
+[[0;32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+[[0;32m  OK  [0m] Stopped target Switch Root.
+[[0;32m  OK  [0m] Created slice system-systemd\x2dfsck.slice.
+[[0;32m  OK  [0m] Listening on multipathd control socket.
+[[0;32m  OK  [0m] Reached target Local Encrypted Volumes.
+         Starting Setup Virtual Console...
+[[0;32m  OK  [0m] Listening on udev Control Socket.
+[[0;32m  OK  [0m] Stopped File System Check on Root Device.
+         Starting Remount Root and Kernel File Systems...
+[[0;32m  OK  [0m] Stopped target Initrd Root File System.
+[[0;32m  OK  [0m] Listening on initctl Compatibility Named Pipe.
+[[0;32m  OK  [0m] Created slice User and Session Slice.
+[[0;32m  OK  [0m] Reached target Slices.
+[[0;32m  OK  [0m] Listening on Device-mapper event daemon FIFOs.
+         Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+         Starting Create list of required static device nodes for the current kernel...
+         Mounting Kernel Debug File System...
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Created slice system-getty.slice.
+         Starting Apply Kernel Variables...
+         Mounting Huge Pages File System...
+[[0;32m  OK  [0m] Listening on Process Core Dump Socket.
+[[0;32m  OK  [0m] Created slice system-serial\x2dgetty.slice.
+         Activating swap /dev/mapper/cl_master-swap...
+         Mounting POSIX Message Queue File System...
+[[0;32m  OK  [0m] Listening on LVM2 poll daemon socket.
+[[0;32m  OK  [0m] Listening on udev Kernel Socket.
+         Starting udev Coldplug all Devices...
+[[0;32m  OK  [0m] Stopped target Initrd File Systems.
+[[0;32m  OK  [0m] Started Journal Service.
+[[0;32m  OK  [0m] Started Remount Root and Kernel File Systems.
+[[0;32m  OK  [0m] Activated swap /dev/mapper/cl_master-swap.
+[[0;32m  OK  [0m] Started Create list of required static device nodes for the current kernel.
+[[0;32m  OK  [0m] Mounted Kernel Debug File System.
+[[0;32m  OK  [0m] Started Apply Kernel Variables.
+[[0;32m  OK  [0m] Mounted Huge Pages File System.
+[[0;32m  OK  [0m] Mounted POSIX Message Queue File System.
+[[0;32m  OK  [0m] Reached target Swap.
+         Starting Load/Save Random Seed...
+         Starting Create Static Device Nodes in /dev...
+         Starting Flush Journal to Persistent Storage...
+[[0;32m  OK  [0m] Started Load/Save Random Seed.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Started Flush Journal to Persistent Storage.
+[[0;32m  OK  [0m] Started udev Coldplug all Devices.
+         Starting udev Wait for Complete Device Initialization...
+[[0;32m  OK  [0m] Started Create Static Device Nodes in /dev.
+         Starting udev Kernel Device Manager...
+[[0;32m  OK  [0m] Started udev Kernel Device Manager.
+[[0;32m  OK  [0m] Created slice system-lvm2\x2dpvscan.slice.
+         Starting LVM event activation on device 8:3...
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-home.
+[[0;32m  OK  [0m] Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[[0;32m  OK  [0m] Started LVM event activation on device 8:3.
+[[0;32m  OK  [0m] Started udev Wait for Complete Device Initialization.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+         Mounting /home...
+         Starting File System Check on /dev/disk/by-uuid/bfb88021-8282-46fa-87df-65ceb078deee...
+[[0;32m  OK  [0m] Started File System Check on /dev/disk/by-uuid/bfb88021-8282-46fa-87df-65ceb078deee.
+         Mounting /boot...
+[[0;32m  OK  [0m] Mounted /home.
+[[0;32m  OK  [0m] Mounted /boot.
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Import network configuration from initramfs...
+         Starting Tell Plymouth To Write Out Runtime Data...
+         Starting Restore /run/initramfs on shutdown...
+[[0;32m  OK  [0m] Started Restore /run/initramfs on shutdown.
+[[0;32m  OK  [0m] Started Import network configuration from initramfs.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Security Auditing Service...
+[[0;32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Started dnf makecache --timer.
+[[0;32m  OK  [0m] Listening on SSSD Kerberos Cache Manager responder socket.
+[[0;32m  OK  [0m] Started Generate summary of yesterday's process accounting.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsid Socket.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsiuio Socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Started daily update of the root trust anchor for DNSSEC.
+[[0;32m  OK  [0m] Started Run system activity accounting tool every 10 minutes.
+[[0;32m  OK  [0m] Reached target Timers.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Started libstoragemgmt plug-in server daemon.
+         Starting NTP client/server...
+         Starting Load CPU microcode update...
+         Starting Hardware RNG Entropy Gatherer Wake threshold service...
+         Starting System Security Services Daemon...
+[[0;32m  OK  [0m] Started Machine Check Exception Logging Daemon.
+         Starting IPv4 firewall with iptables...
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+[[0;32m  OK  [0m] Started irqbalance daemon.
+         Starting Resets System Activity Logs...
+         Starting Authorization Manager...
+         Starting VDO volume services...
+[[0;32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+[[0;32m  OK  [0m] Started Load CPU microcode update.
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Wake threshold service.
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started IPv4 firewall with iptables.
+[[0;32m  OK  [0m] Started Resets System Activity Logs.
+         Starting LSB: Bring up/down networking...
+[[0;32m  OK  [0m] Started NTP client/server.
+[[0;32m  OK  [0m] Started Authorization Manager.
+[[0;32m  OK  [0m] Started System Security Services Daemon.
+[[0;32m  OK  [0m] Reached target User and Group Name Lookups.
+         Starting Login Service...
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Started VDO volume services.
+[[0m[0;31m*     [0m] A start job is running for LSB: Bring up/down networking (11s / 5min 5s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for LSB: Bring up/down networking (11s / 5min 5s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for LSB: Bring up/down networking (12s / 5min 5s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for LSB: Bring up/down networking (13s / 5min 5s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for LSB: Bring up/down networking (13s / 5min 5s)[K[[0;32m  OK  [0m] Started LSB: Bring up/down networking.
+         Starting SYSV: OpenSSH server daemon...
+[[0;32m  OK  [0m] Reached target Network.
+         Starting Fail2Ban Service...
+         Starting Dynamic System Tuning Daemon...
+         Starting PostgreSQL database server...
+         Starting /etc/rc.d/rc.local Compatibility...
+         Starting Logout off all iSCSI sessions on shutdown...
+         Starting Zabbix Agent...
+[[0;32m  OK  [0m] Reached target Network is Online.
+         Starting Enable periodic update of entitlement certificates....
+         Starting System Logging Service...
+[[0;32m  OK  [0m] Started Fail2Ban Service.
+[[0;32m  OK  [0m] Started Logout off all iSCSI sessions on shutdown.
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+         Starting Crash recovery kernel arming...
+         Starting Permit User Sessions...
+[[0;32m  OK  [0m] Started Enable periodic update of entitlement certificates..
+[[0;32m  OK  [0m] Started Permit User Sessions.
+[[0;32m  OK  [0m] Started Command Scheduler.
+[[0;32m  OK  [0m] Started Job spooling tools.
+[[0;32m  OK  [0m] Started SYSV: OpenSSH server daemon.
+         Starting LSB: start and stop MySQL...
+         Starting delfockfile.service...
+[[0;32m  OK  [0m] Started delfockfile.service.
+[[0;32m  OK  [0m] Started System Logging Service.
+[[0;32m  OK  [0m] Started Zabbix Agent.
+[[0;32m  OK  [0m] Created slice system-user\x2druntime\x2ddir.slice.
+[[0;32m  OK  [0m] Created slice User Slice of UID 1000.
+[[0;32m  OK  [0m] Started /run/user/1000 mount wrapper.
+         Starting User Manager for UID 1000...
+[[0;32m  OK  [0m] Started Session c1 of user database.
+[[0;32m  OK  [0m] Started User Manager for UID 1000.
+[[0;32m  OK  [0m] Started PostgreSQL database server.
+[[0;32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[0;32m  OK  [0m] Started Crash recovery kernel arming.
+[[0;32m  OK  [0m] Started LSB: start and stop MySQL.
+         Starting elasticsearch.service...
+[[0;32m  OK  [0m] Started Session c2 of user database.
+[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (23s / no limit)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for elasticsearch.service (23s / 5min 17s)[K[[0;32m  OK  [0m] Started Session c3 of user database.
+[     [0;31m*[0m] (1 of 2) A start job is running for elasticsearch.service (28s / 5min 17s)[K[[0;32m  OK  [0m] Created slice User Slice of UID 0.
+[[0;32m  OK  [0m] Started /run/user/0 mount wrapper.
+         Starting User Manager for UID 0...
+[[0;32m  OK  [0m] Started Session 2 of user root.
+[[0;32m  OK  [0m] Started Session 3 of user root.
+[[0;32m  OK  [0m] Started User Manager for UID 0.
+[[0;32m  OK  [0m] Started elasticsearch.service.
+         Starting redisnew.service...
+[[0;32m  OK  [0m] Started Session c4 of user database.
+[[0;32m  OK  [0m] Started redisnew.service.
+         Starting SYSV: Redis is a persistent key-value database...
+         Starting SYSV: Redis is a persistent key-value database...
+[[0;32m  OK  [0m] Started SYSV: Redis is a persistent key-value database.
+[[0;32m  OK  [0m] Started SYSV: Redis is a persistent key-value database.
+         Starting sysif.service...
+         Starting licenseclient.service...
+         Starting alarmPush.service...
+         Starting ladder.service...
+         Starting newdecode.service...
+         Starting scheduler_RB.service...
+         Starting prehandle.service...
+         Starting alarm_New.service...
+         Starting spark.service...
+         Starting traceManage.service...
+         Starting msgdriver.service...
+         Starting SYSV: Tomcat AutoRun Services...
+         Starting deploy.service...
+[[0;32m  OK  [0m] Started ladder.service.
+[[0;32m  OK  [0m] Started Session c5 of user database.
+[[0;32m  OK  [0m] Started Session c6 of user database.
+[[0;32m  OK  [0m] Started Session c7 of user database.
+[[0;32m  OK  [0m] Started Session c8 of user database.
+[[0;32m  OK  [0m] Started Session c9 of user database.
+[[0;32m  OK  [0m] Started Session c10 of user database.
+[[0;32m  OK  [0m] Started Session c11 of user database.
+[[0;32m  OK  [0m] Started Session c12 of user database.
+[[0;32m  OK  [0m] Started deploy.service.
+[[0;32m  OK  [0m] Started alarmPush.service.
+[[0;32m  OK  [0m] Started newdecode.service.
+[[0;32m  OK  [0m] Started traceManage.service.
+[[0;32m  OK  [0m] Started alarm_New.service.
+[[0;32m  OK  [0m] Started Session c13 of user database.
+[[0;32m  OK  [0m] Started scheduler_RB.service.
+[[0;32m  OK  [0m] Started licenseclient.service.
+[[0;32m  OK  [0m] Started msgdriver.service.
+[[0;32m  OK  [0m] Started sysif.service.
+[[0;32m  OK  [0m] Started SYSV: Tomcat AutoRun Services.
+         Starting GVM Manager...
+[[0;32m  OK  [0m] Started GVM Manager.
+[[0;32m  OK  [0m] Started spark.service.
+[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (47s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (47s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (48s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (48s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (49s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for prehandle.service (49s / 5min 30s)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for prehandle.service (50s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (50s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (50s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (51s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (51s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for prehandle.service (52s / 5min 30s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (52s / 5min 30s)[K[     [0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (53s / no limit)[K[    [0;31m*[0;1;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (53s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (54s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (54s / 5min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (1 of 2) A start job is running for prehandle.service (55s / 5min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (55s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (56s / no limit)[K[[0m[0;31m*     [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (56s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (57s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (57s / 5min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (1 of 2) A start job is running for prehandle.service (58s / 5min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (58s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (59s / no limit)[K[    [0;31m*[0;1;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (59s / no limit)[K[     [0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min / no limit)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 1s / 5min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (1min 1s / 5min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 2s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 2s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 3s / no limit)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for prehandle.service (1min 3s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for prehandle.service (1min 4s / 5min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (1min 4s / 5min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 5s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 5s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 6s / no limit)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 6s / 5min 30s)[K[     [0;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 7s / 5min 30s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 7s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 8s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 8s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 9s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (1min 9s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for prehandle.service (1min 10s / 5min 30s)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for prehandle.service (1min 10s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 11s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 11s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 12s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (1min 12s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 13s / 5min 30s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 13s / 5min 30s)[K[     [0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 14s / no limit)[K[    [0;31m*[0;1;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 14s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 15s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (1min 15s / 5min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (1 of 2) A start job is running for prehandle.service (1min 16s / 5min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (1min 16s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 17s / no limit)[K[[0m[0;31m*     [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 17s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 18s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (1min 18s / 5min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (1 of 2) A start job is running for prehandle.service (1min 19s / 5min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (1min 19s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 20s / no limit)[K[[0;32m  OK  [0m] Started Session c14 of user database.
+[[0;32m  OK  [0m] Started /etc/rc.d/rc.local Compatibility.
+         Starting Terminate Plymouth Boot Screen...
+         Starting Hold until boot process finishes up...
+------------ Wed Feb 24 10:42:05 CST 2021 ------------
+[[0;32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-root.
+[[0;32m  OK  [0m] Reached target Initrd Root Device.
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-swap.
+         Starting Resume from hibernation using device /dev/mapper/cl_master-swap...
+[[0;32m  OK  [0m] Started Resume from hibernation using device /dev/mapper/cl_master-swap.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started dracut initqueue hook.
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+         Starting File System Check on /dev/mapper/cl_master-root...
+[[0;32m  OK  [0m] Started File System Check on /dev/mapper/cl_master-root.
+         Mounting /sysroot...
+[[0;32m  OK  [0m] Mounted /sysroot.
+[[0;32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[0;32m  OK  [0m] Started Reload Configuration from the Real Root.
+[[0;32m  OK  [0m] Reached target Initrd File Systems.
+[[0;32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[0;32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+[[0;32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[0;32m  OK  [0m] Stopped target Remote File Systems.
+         Starting Setup Virtual Console...
+[[0;32m  OK  [0m] Stopped target Initrd Default Target.
+[[0;32m  OK  [0m] Stopped target Timers.
+         Starting Plymouth switch root service...
+[[0;32m  OK  [0m] Stopped target Initrd Root Device.
+[[0;32m  OK  [0m] Stopped target Basic System.
+[[0;32m  OK  [0m] Stopped target Paths.
+[[0;32m  OK  [0m] Stopped target Sockets.
+[[0;32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Stopped target System Initialization.
+[[0;32m  OK  [0m] Stopped target Swap.
+[[0;32m  OK  [0m] Stopped Create Volatile Files and Directories.
+         Stopping udev Kernel Device Manager...
+[[0;32m  OK  [0m] Stopped target Local File Systems.
+[[0;32m  OK  [0m] Stopped target Local File Systems (Pre).
+[[0;32m  OK  [0m] Stopped Apply Kernel Variables.
+[[0;32m  OK  [0m] Stopped dracut initqueue hook.
+[[0;32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[0;32m  OK  [0m] Stopped target Slices.
+[[0;32m  OK  [0m] Started Cleaning Up and Shutting Down Daemons.
+[[0;32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[0;32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[0;32m  OK  [0m] Stopped Create list of required static device nodes for the current kernel.
+         Stopping Hardware RNG Entropy Gatherer Daemon...
+[[0;32m  OK  [0m] Stopped dracut pre-udev hook.
+[[0;32m  OK  [0m] Stopped dracut cmdline hook.
+[[0;32m  OK  [0m] Closed udev Control Socket.
+[[0;32m  OK  [0m] Closed udev Kernel Socket.
+         Starting Cleanup udevd DB...
+[[0;32m  OK  [0m] Stopped Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Cleanup udevd DB.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Reached target Switch Root.
+[[0;32m  OK  [0m] Started Plymouth switch root service.
+         Starting Switch Root...
+
+Welcome to [0;31mCentOS Linux 8 (Core)[0m!
+
+[[0;32m  OK  [0m] Stopped Switch Root.
+[[0;32m  OK  [0m] Stopped Journal Service.
+         Starting Journal Service...
+[[0;32m  OK  [0m] Listening on Process Core Dump Socket.
+[[0;32m  OK  [0m] Created slice User and Session Slice.
+[[0;32m  OK  [0m] Reached target Slices.
+[[0;32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+[[0;32m  OK  [0m] Listening on LVM2 poll daemon socket.
+[[0;32m  OK  [0m] Stopped target Switch Root.
+         Activating swap /dev/mapper/cl_master-swap...
+[[0;32m  OK  [0m] Stopped target Initrd Root File System.
+         Mounting Huge Pages File System...
+[[0;32m  OK  [0m] Stopped File System Check on Root Device.
+         Starting Remount Root and Kernel File Systems...
+[[0;32m  OK  [0m] Listening on udev Kernel Socket.
+         Starting Setup Virtual Console...
+[[0;32m  OK  [0m] Listening on udev Control Socket.
+[[0;32m  OK  [0m] Created slice system-serial\x2dgetty.slice.
+[[0;32m  OK  [0m] Reached target Paths.
+         Starting udev Coldplug all Devices...
+[[0;32m  OK  [0m] Listening on Device-mapper event daemon FIFOs.
+         Mounting POSIX Message Queue File System...
+         Starting Create list of required static device nodes for the current kernel...
+[[0;32m  OK  [0m] Created slice system-getty.slice.
+         Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[[0;32m  OK  [0m] Listening on multipathd control socket.
+[[0;32m  OK  [0m] Set up automount Arbitrary Executable File Formats File System Automount Point.
+[[0;32m  OK  [0m] Created slice system-systemd\x2dfsck.slice.
+[[0;32m  OK  [0m] Stopped target Initrd File Systems.
+[[0;32m  OK  [0m] Listening on initctl Compatibility Named Pipe.
+         Starting Apply Kernel Variables...
+[[0;32m  OK  [0m] Reached target Local Encrypted Volumes.
+         Mounting Kernel Debug File System...
+[[0;32m  OK  [0m] Activated swap /dev/mapper/cl_master-swap.
+[[0;32m  OK  [0m] Started Journal Service.
+[[0;32m  OK  [0m] Mounted Huge Pages File System.
+[[0;32m  OK  [0m] Started Remount Root and Kernel File Systems.
+[[0;32m  OK  [0m] Mounted POSIX Message Queue File System.
+[[0;32m  OK  [0m] Started Create list of required static device nodes for the current kernel.
+[[0;32m  OK  [0m] Started Apply Kernel Variables.
+[[0;32m  OK  [0m] Mounted Kernel Debug File System.
+[[0;32m  OK  [0m] Started udev Coldplug all Devices.
+         Starting udev Wait for Complete Device Initialization...
+         Starting Create Static Device Nodes in /dev...
+         Starting Load/Save Random Seed...
+         Starting Flush Journal to Persistent Storage...
+[[0;32m  OK  [0m] Reached target Swap.
+[[0;32m  OK  [0m] Started Load/Save Random Seed.
+[[0;32m  OK  [0m] Started Flush Journal to Persistent Storage.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Started Create Static Device Nodes in /dev.
+         Starting udev Kernel Device Manager...
+[[0;32m  OK  [0m] Started udev Kernel Device Manager.
+[[0;32m  OK  [0m] Created slice system-lvm2\x2dpvscan.slice.
+         Starting LVM event activation on device 8:3...
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-home.
+[[0;32m  OK  [0m] Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[[0;32m  OK  [0m] Started LVM event activation on device 8:3.
+[[0;32m  OK  [0m] Started udev Wait for Complete Device Initialization.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+         Starting File System Check on /dev/disk/by-uuid/bfb88021-8282-46fa-87df-65ceb078deee...
+         Mounting /home...
+[[0;32m  OK  [0m] Started File System Check on /dev/disk/by-uuid/bfb88021-8282-46fa-87df-65ceb078deee.
+         Mounting /boot...
+[[0;32m  OK  [0m] Mounted /boot.
+[[0;32m  OK  [0m] Mounted /home.
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Restore /run/initramfs on shutdown...
+         Starting Tell Plymouth To Write Out Runtime Data...
+         Starting Import network configuration from initramfs...
+[[0;32m  OK  [0m] Started Restore /run/initramfs on shutdown.
+[[0;32m  OK  [0m] Started Import network configuration from initramfs.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Security Auditing Service...
+[[0;32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Started Run system activity accounting tool every 10 minutes.
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Started Generate summary of yesterday's process accounting.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsiuio Socket.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Started dnf makecache --timer.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsid Socket.
+[[0;32m  OK  [0m] Started daily update of the root trust anchor for DNSSEC.
+[[0;32m  OK  [0m] Reached target Timers.
+[[0;32m  OK  [0m] Listening on SSSD Kerberos Cache Manager responder socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Reached target Basic System.
+         Starting VDO volume services...
+[[0;32m  OK  [0m] Started irqbalance daemon.
+         Starting Hardware RNG Entropy Gatherer Wake threshold service...
+         Starting Resets System Activity Logs...
+[[0;32m  OK  [0m] Started libstoragemgmt plug-in server daemon.
+[[0;32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+         Starting Authorization Manager...
+         Starting NTP client/server...
+         Starting Load CPU microcode update...
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting System Security Services Daemon...
+[[0;32m  OK  [0m] Started Machine Check Exception Logging Daemon.
+         Starting IPv4 firewall with iptables...
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Wake threshold service.
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Resets System Activity Logs.
+[[0;32m  OK  [0m] Started Load CPU microcode update.
+[[0;32m  OK  [0m] Started IPv4 firewall with iptables.
+         Starting LSB: Bring up/down networking...
+[[0;32m  OK  [0m] Started NTP client/server.
+[[0;32m  OK  [0m] Started Authorization Manager.
+[[0;32m  OK  [0m] Started System Security Services Daemon.
+[[0;32m  OK  [0m] Reached target User and Group Name Lookups.
+         Starting Login Service...
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Started VDO volume services.
+[[0m[0;31m*     [0m] A start job is running for LSB: Bring up/down networking (11s / 5min 5s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for LSB: Bring up/down networking (12s / 5min 5s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for LSB: Bring up/down networking (12s / 5min 5s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for LSB: Bring up/down networking (13s / 5min 5s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for LSB: Bring up/down networking (14s / 5min 5s)[K[[0;32m  OK  [0m] Started LSB: Bring up/down networking.
+[[0;32m  OK  [0m] Reached target Network.
+         Starting Enable periodic update of entitlement certificates....
+         Starting Zabbix Agent...
+         Starting PostgreSQL database server...
+         Starting Fail2Ban Service...
+         Starting Dynamic System Tuning Daemon...
+         Starting /etc/rc.d/rc.local Compatibility...
+[[0;32m  OK  [0m] Reached target Network is Online.
+         Starting System Logging Service...
+         Starting Logout off all iSCSI sessions on shutdown...
+         Starting SYSV: OpenSSH server daemon...
+[[0;32m  OK  [0m] Started Enable periodic update of entitlement certificates..
+[[0;32m  OK  [0m] Started Fail2Ban Service.
+[[0;32m  OK  [0m] Started Logout off all iSCSI sessions on shutdown.
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+         Starting Crash recovery kernel arming...
+         Starting Permit User Sessions...
+[[0;32m  OK  [0m] Started Permit User Sessions.
+[[0;32m  OK  [0m] Started Job spooling tools.
+[[0;32m  OK  [0m] Started Command Scheduler.
+[[0;32m  OK  [0m] Started SYSV: OpenSSH server daemon.
+         Starting delfockfile.service...
+         Starting LSB: start and stop MySQL...
+[[0;32m  OK  [0m] Started delfockfile.service.
+[[0;32m  OK  [0m] Started System Logging Service.
+[[0;32m  OK  [0m] Started Zabbix Agent.
+[[0;32m  OK  [0m] Created slice User Slice of UID 1000.
+[[0;32m  OK  [0m] Created slice system-user\x2druntime\x2ddir.slice.
+[[0;32m  OK  [0m] Started /run/user/1000 mount wrapper.
+         Starting User Manager for UID 1000...
+[[0;32m  OK  [0m] Started Session c1 of user database.
+[[0;32m  OK  [0m] Started User Manager for UID 1000.
+[[0;32m  OK  [0m] Started PostgreSQL database server.
+[[0;32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[0;32m  OK  [0m] Started Crash recovery kernel arming.
+[[0;32m  OK  [0m] Started LSB: start and stop MySQL.
+         Starting elasticsearch.service...
+[[0;32m  OK  [0m] Started Session c2 of user database.
+[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for elasticsearch.service (23s / 5min 18s)[K[[0;32m  OK  [0m] Started Session c3 of user database.
+[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (29s / no limit)[K[     [0;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (29s / no limit)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (30s / no limit)[K[[0;32m  OK  [0m] Started elasticsearch.service.
+         Starting redisnew.service...
+[[0;32m  OK  [0m] Started Session c4 of user database.
+[[0;32m  OK  [0m] Started redisnew.service.
+         Starting SYSV: Redis is a persistent key-value database...
+         Starting SYSV: Redis is a persistent key-value database...
+[[0;32m  OK  [0m] Started SYSV: Redis is a persistent key-value database.
+[[0;32m  OK  [0m] Started SYSV: Redis is a persistent key-value database.
+         Starting sysif.service...
+         Starting scheduler_RB.service...
+         Starting alarm_New.service...
+         Starting licenseclient.service...
+         Starting traceManage.service...
+         Starting SYSV: Tomcat AutoRun Services...
+         Starting deploy.service...
+         Starting msgdriver.service...
+         Starting ladder.service...
+         Starting prehandle.service...
+         Starting alarmPush.service...
+         Starting spark.service...
+         Starting newdecode.service...
+[[0;32m  OK  [0m] Started Session c5 of user database.
+[[0;32m  OK  [0m] Started Session c6 of user database.
+[[0;32m  OK  [0m] Started Session c7 of user database.
+[[0;32m  OK  [0m] Started Session c8 of user database.
+[[0;32m  OK  [0m] Started Session c9 of user database.
+[[0;32m  OK  [0m] Started Session c10 of user database.
+[[0;32m  OK  [0m] Started Session c11 of user database.
+[[0;32m  OK  [0m] Started Session c12 of user database.
+[[0;32m  OK  [0m] Started deploy.service.
+[[0;32m  OK  [0m] Started traceManage.service.
+[[0;32m  OK  [0m] Started alarm_New.service.
+[[0;32m  OK  [0m] Started alarmPush.service.
+[[0;32m  OK  [0m] Started scheduler_RB.service.
+[[0;32m  OK  [0m] Started newdecode.service.
+[[0;32m  OK  [0m] Started sysif.service.
+[[0;32m  OK  [0m] Started licenseclient.service.
+[[0;32m  OK  [0m] Started msgdriver.service.
+[[0;32m  OK  [0m] Started ladder.service.
+[[0;32m  OK  [0m] Started SYSV: Tomcat AutoRun Services.
+[[0;32m  OK  [0m] Started spark.service.
+[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (47s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (48s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (48s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (49s / 5min 31s)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for prehandle.service (49s / 5min 31s)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for prehandle.service (49s / 5min 31s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (50s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (50s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (51s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (51s / 5min 31s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for prehandle.service (52s / 5min 31s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (52s / 5min 31s)[K[     [0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (53s / no limit)[K[    [0;31m*[0;1;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (53s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (54s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (54s / 5min 31s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (1 of 2) A start job is running for prehandle.service (55s / 5min 31s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (55s / 5min 31s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (56s / no limit)[K[[0m[0;31m*     [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (56s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (57s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (57s / 5min 31s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (1 of 2) A start job is running for prehandle.service (58s / 5min 31s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (58s / 5min 31s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (59s / no limit)[K[    [0;31m*[0;1;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (59s / no limit)[K[     [0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min / no limit)[K[[0;32m  OK  [0m] Started /run/user/0 mount wrapper.
+[[0;32m  OK  [0m] Created slice User Slice of UID 0.
+         Starting User Manager for UID 0...
+[[0;32m  OK  [0m] Started Session 2 of user root.
+[[0;32m  OK  [0m] Started User Manager for UID 0.
+[[0;32m  OK  [0m] Started Session c13 of user database.
+[[0;32m  OK  [0m] Started prehandle.service.
+[[0;32m  OK  [0m] Started /etc/rc.d/rc.local Compatibility.
+         Starting Hold until boot process finishes up...
+         Starting Terminate Plymouth Boot Screen...
+------------ Wed Feb 24 11:09:39 CST 2021 ------------
+[[0;32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[0;32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-root.
+[[0;32m  OK  [0m] Reached target Initrd Root Device.
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-swap.
+         Starting Resume from hibernation using device /dev/mapper/cl_master-swap...
+[[0;32m  OK  [0m] Started Resume from hibernation using device /dev/mapper/cl_master-swap.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Started dracut initqueue hook.
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+         Starting File System Check on /dev/mapper/cl_master-root...
+[[0;32m  OK  [0m] Started File System Check on /dev/mapper/cl_master-root.
+         Mounting /sysroot...
+[[0;32m  OK  [0m] Mounted /sysroot.
+[[0;32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[0;32m  OK  [0m] Started Reload Configuration from the Real Root.
+[[0;32m  OK  [0m] Reached target Initrd File Systems.
+[[0;32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[0;32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+         Starting Setup Virtual Console...
+[[0;32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+         Starting Plymouth switch root service...
+[[0;32m  OK  [0m] Stopped target Initrd Default Target.
+[[0;32m  OK  [0m] Stopped target Timers.
+[[0;32m  OK  [0m] Stopped target Remote File Systems.
+[[0;32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Stopped dracut initqueue hook.
+[[0;32m  OK  [0m] Stopped target Initrd Root Device.
+[[0;32m  OK  [0m] Stopped target Basic System.
+[[0;32m  OK  [0m] Stopped target Sockets.
+[[0;32m  OK  [0m] Stopped target System Initialization.
+         Stopping udev Kernel Device Manager...
+[[0;32m  OK  [0m] Stopped udev Coldplug all Devices.
+[[0;32m  OK  [0m] Stopped Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Stopped target Local File Systems.
+[[0;32m  OK  [0m] Stopped target Local File Systems (Pre).
+[[0;32m  OK  [0m] Stopped target Swap.
+[[0;32m  OK  [0m] Stopped Apply Kernel Variables.
+[[0;32m  OK  [0m] Stopped target Slices.
+[[0;32m  OK  [0m] Stopped target Paths.
+[[0;32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[0;32m  OK  [0m] Stopped dracut pre-udev hook.
+[[0;32m  OK  [0m] Stopped dracut cmdline hook.
+[[0;32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[0;32m  OK  [0m] Stopped Create list of required static device nodes for the current kernel.
+         Stopping Hardware RNG Entropy Gatherer Daemon...
+[[0;32m  OK  [0m] Closed udev Control Socket.
+[[0;32m  OK  [0m] Closed udev Kernel Socket.
+         Starting Cleanup udevd DB...
+[[0;32m  OK  [0m] Started Cleaning Up and Shutting Down Daemons.
+[[0;32m  OK  [0m] Stopped Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Cleanup udevd DB.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Reached target Switch Root.
+[[0;32m  OK  [0m] Started Plymouth switch root service.
+         Starting Switch Root...
+
+Welcome to [0;31mCentOS Linux 8 (Core)[0m!
+
+[[0;32m  OK  [0m] Stopped Switch Root.
+[[0;32m  OK  [0m] Stopped Journal Service.
+         Starting Journal Service...
+[[0;32m  OK  [0m] Set up automount Arbitrary Executable File Formats File System Automount Point.
+         Mounting POSIX Message Queue File System...
+[[0;32m  OK  [0m] Created slice system-serial\x2dgetty.slice.
+[[0;32m  OK  [0m] Created slice User and Session Slice.
+[[0;32m  OK  [0m] Stopped target Switch Root.
+[[0;32m  OK  [0m] Stopped target Initrd File Systems.
+[[0;32m  OK  [0m] Created slice system-getty.slice.
+         Mounting Kernel Debug File System...
+[[0;32m  OK  [0m] Listening on udev Control Socket.
+[[0;32m  OK  [0m] Listening on multipathd control socket.
+         Activating swap /dev/mapper/cl_master-swap...
+         Starting Create list of required static device nodes for the current kernel...
+[[0;32m  OK  [0m] Reached target Slices.
+         Mounting Huge Pages File System...
+[[0;32m  OK  [0m] Listening on Process Core Dump Socket.
+[[0;32m  OK  [0m] Listening on LVM2 poll daemon socket.
+         Starting Setup Virtual Console...
+         Starting Apply Kernel Variables...
+[[0;32m  OK  [0m] Created slice system-systemd\x2dfsck.slice.
+[[0;32m  OK  [0m] Listening on udev Kernel Socket.
+         Starting udev Coldplug all Devices...
+[[0;32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+[[0;32m  OK  [0m] Stopped File System Check on Root Device.
+[[0;32m  OK  [0m] Listening on initctl Compatibility Named Pipe.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Reached target Local Encrypted Volumes.
+[[0;32m  OK  [0m] Stopped target Initrd Root File System.
+[[0;32m  OK  [0m] Listening on Device-mapper event daemon FIFOs.
+         Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+         Starting Remount Root and Kernel File Systems...
+[[0;32m  OK  [0m] Activated swap /dev/mapper/cl_master-swap.
+[[0;32m  OK  [0m] Started Journal Service.
+[[0;32m  OK  [0m] Mounted POSIX Message Queue File System.
+[[0;32m  OK  [0m] Mounted Kernel Debug File System.
+[[0;32m  OK  [0m] Started Create list of required static device nodes for the current kernel.
+[[0;32m  OK  [0m] Mounted Huge Pages File System.
+[[0;32m  OK  [0m] Started Apply Kernel Variables.
+[[0;32m  OK  [0m] Started Remount Root and Kernel File Systems.
+         Starting Load/Save Random Seed...
+         Starting Create Static Device Nodes in /dev...
+         Starting Flush Journal to Persistent Storage...
+[[0;32m  OK  [0m] Reached target Swap.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Started Load/Save Random Seed.
+[[0;32m  OK  [0m] Started Flush Journal to Persistent Storage.
+[[0;32m  OK  [0m] Started udev Coldplug all Devices.
+         Starting udev Wait for Complete Device Initialization...
+[[0;32m  OK  [0m] Started Create Static Device Nodes in /dev.
+         Starting udev Kernel Device Manager...
+[[0;32m  OK  [0m] Started udev Kernel Device Manager.
+[[0;32m  OK  [0m] Created slice system-lvm2\x2dpvscan.slice.
+         Starting LVM event activation on device 8:3...
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-home.
+[[0;32m  OK  [0m] Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[[0;32m  OK  [0m] Started LVM event activation on device 8:3.
+[[0;32m  OK  [0m] Started udev Wait for Complete Device Initialization.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+         Mounting /home...
+         Starting File System Check on /dev/disk/by-uuid/bfb88021-8282-46fa-87df-65ceb078deee...
+[[0;32m  OK  [0m] Started File System Check on /dev/disk/by-uuid/bfb88021-8282-46fa-87df-65ceb078deee.
+         Mounting /boot...
+[[0;32m  OK  [0m] Mounted /boot.
+[[0;32m  OK  [0m] Mounted /home.
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Restore /run/initramfs on shutdown...
+         Starting Tell Plymouth To Write Out Runtime Data...
+         Starting Import network configuration from initramfs...
+[[0;32m  OK  [0m] Started Restore /run/initramfs on shutdown.
+[[0;32m  OK  [0m] Started Import network configuration from initramfs.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Security Auditing Service...
+[[0;32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsid Socket.
+[[0;32m  OK  [0m] Started Generate summary of yesterday's process accounting.
+[[0;32m  OK  [0m] Started daily update of the root trust anchor for DNSSEC.
+[[0;32m  OK  [0m] Started Run system activity accounting tool every 10 minutes.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsiuio Socket.
+[[0;32m  OK  [0m] Started dnf makecache --timer.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Listening on SSSD Kerberos Cache Manager responder socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Reached target Basic System.
+         Starting Hardware RNG Entropy Gatherer Wake threshold service...
+[[0;32m  OK  [0m] Started irqbalance daemon.
+[[0;32m  OK  [0m] Started Machine Check Exception Logging Daemon.
+[[0;32m  OK  [0m] Started libstoragemgmt plug-in server daemon.
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting Resets System Activity Logs...
+         Starting IPv4 firewall with iptables...
+         Starting Authorization Manager...
+         Starting VDO volume services...
+[[0;32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+         Starting System Security Services Daemon...
+         Starting NTP client/server...
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Reached target Timers.
+         Starting Load CPU microcode update...
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Wake threshold service.
+[[0;32m  OK  [0m] Started Resets System Activity Logs.
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Load CPU microcode update.
+[[0;32m  OK  [0m] Started NTP client/server.
+[[0;32m  OK  [0m] Started IPv4 firewall with iptables.
+         Starting LSB: Bring up/down networking...
+[[0;32m  OK  [0m] Started Authorization Manager.
+[[0;32m  OK  [0m] Started System Security Services Daemon.
+[[0;32m  OK  [0m] Reached target User and Group Name Lookups.
+         Starting Login Service...
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Started VDO volume services.
+[[0m[0;31m*     [0m] A start job is running for LSB: Bring up/down networking (11s / 5min 5s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for LSB: Bring up/down networking (11s / 5min 5s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for LSB: Bring up/down networking (12s / 5min 5s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for LSB: Bring up/down networking (13s / 5min 5s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for LSB: Bring up/down networking (13s / 5min 5s)[K[[0;32m  OK  [0m] Started LSB: Bring up/down networking.
+         Starting SYSV: OpenSSH server daemon...
+[[0;32m  OK  [0m] Reached target Network.
+         Starting PostgreSQL database server...
+         Starting /etc/rc.d/rc.local Compatibility...
+         Starting Zabbix Agent...
+         Starting Enable periodic update of entitlement certificates....
+         Starting Logout off all iSCSI sessions on shutdown...
+[[0;32m  OK  [0m] Reached target Network is Online.
+         Starting System Logging Service...
+         Starting Dynamic System Tuning Daemon...
+         Starting Fail2Ban Service...
+[[0;32m  OK  [0m] Started Enable periodic update of entitlement certificates..
+[[0;32m  OK  [0m] Started Logout off all iSCSI sessions on shutdown.
+[[0;32m  OK  [0m] Started Fail2Ban Service.
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+         Starting Crash recovery kernel arming...
+         Starting Permit User Sessions...
+[[0;32m  OK  [0m] Started Permit User Sessions.
+[[0;32m  OK  [0m] Started Job spooling tools.
+[[0;32m  OK  [0m] Started Command Scheduler.
+[[0;32m  OK  [0m] Started SYSV: OpenSSH server daemon.
+         Starting delfockfile.service...
+         Starting LSB: start and stop MySQL...
+[[0;32m  OK  [0m] Started delfockfile.service.
+[[0;32m  OK  [0m] Started System Logging Service.
+[[0;32m  OK  [0m] Started Zabbix Agent.
+[[0;32m  OK  [0m] Created slice system-user\x2druntime\x2ddir.slice.
+[[0;32m  OK  [0m] Started /run/user/1000 mount wrapper.
+[[0;32m  OK  [0m] Created slice User Slice of UID 1000.
+         Starting User Manager for UID 1000...
+[[0;32m  OK  [0m] Started Session c1 of user database.
+[[0;32m  OK  [0m] Started PostgreSQL database server.
+[[0;32m  OK  [0m] Started User Manager for UID 1000.
+[[0;32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[0;32m  OK  [0m] Started Crash recovery kernel arming.
+[[0;32m  OK  [0m] Started LSB: start and stop MySQL.
+         Starting elasticsearch.service...
+[[0;32m  OK  [0m] Started Session c2 of user database.
+[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for elasticsearch.service (23s / 5min 17s)[K[[0;32m  OK  [0m] Started Session c3 of user database.
+         Starting system activity accounting tool...
+[[0;32m  OK  [0m] Started /run/user/0 mount wrapper.
+[[0;32m  OK  [0m] Created slice User Slice of UID 0.
+[[0;32m  OK  [0m] Started Session 2 of user root.
+         Starting User Manager for UID 0...
+[[0;32m  OK  [0m] Started system activity accounting tool.
+[[0;32m  OK  [0m] Started Session 3 of user root.
+[[0;32m  OK  [0m] Started Session 4 of user root.
+[[0;32m  OK  [0m] Started Session 5 of user root.
+[[0;32m  OK  [0m] Started Session 6 of user root.
+[[0;32m  OK  [0m] Started Session 9 of user root.
+[[0;32m  OK  [0m] Started Session 7 of user root.
+[[0;32m  OK  [0m] Started Session 8 of user root.
+[[0;32m  OK  [0m] Started User Manager for UID 0.
+[[0;32m  OK  [0m] Started Session 10 of user root.
+[[0;32m  OK  [0m] Started Session 11 of user root.
+[[0;32m  OK  [0m] Started Session 12 of user root.
+[[0;32m  OK  [0m] Started elasticsearch.service.
+         Starting redisnew.service...
+[[0;32m  OK  [0m] Started Session c4 of user database.
+[[0;32m  OK  [0m] Started redisnew.service.
+         Starting SYSV: Redis is a persistent key-value database...
+         Starting SYSV: Redis is a persistent key-value database...
+[[0;32m  OK  [0m] Started SYSV: Redis is a persistent key-value database.
+[[0;32m  OK  [0m] Started SYSV: Redis is a persistent key-value database.
+         Starting newdecode.service...
+         Starting alarm_New.service...
+         Starting SYSV: Tomcat AutoRun Services...
+         Starting ladder.service...
+         Starting alarmPush.service...
+         Starting msgdriver.service...
+         Starting scheduler_RB.service...
+         Starting spark.service...
+         Starting sysif.service...
+         Starting deploy.service...
+         Starting licenseclient.service...
+         Starting prehandle.service...
+         Starting traceManage.service...
+[[0;32m  OK  [0m] Started ladder.service.
+[[0;32m  OK  [0m] Started deploy.service.
+[[0;32m  OK  [0m] Started alarmPush.service.
+[[0;32m  OK  [0m] Started Session c5 of user database.
+[[0;32m  OK  [0m] Started Session c6 of user database.
+[[0;32m  OK  [0m] Started Session c7 of user database.
+[[0;32m  OK  [0m] Started Session c8 of user database.
+[[0;32m  OK  [0m] Started Session c9 of user database.
+[[0;32m  OK  [0m] Started Session c10 of user database.
+[[0;32m  OK  [0m] Started Session c11 of user database.
+[[0;32m  OK  [0m] Started newdecode.service.
+[[0;32m  OK  [0m] Started msgdriver.service.
+[[0;32m  OK  [0m] Started traceManage.service.
+[[0;32m  OK  [0m] Started scheduler_RB.service.
+[[0;32m  OK  [0m] Started alarm_New.service.
+[[0;32m  OK  [0m] Started Session c12 of user database.
+[[0;32m  OK  [0m] Started licenseclient.service.
+         Starting GVM Manager...
+[[0;32m  OK  [0m] Started sysif.service.
+[[0;32m  OK  [0m] Started GVM Manager.
+[[0;32m  OK  [0m] Started SYSV: Tomcat AutoRun Services.
+[[0;32m  OK  [0m] Started spark.service.
+[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (47s / no limit)[K[     [0;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (48s / no limit)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (48s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for prehandle.service (49s / 5min 31s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for prehandle.service (49s / 5min 31s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for prehandle.service (50s / 5min 31s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (50s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (50s / no limit)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (51s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for prehandle.service (51s / 5min 31s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for prehandle.service (52s / 5min 31s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for prehandle.service (52s / 5min 31s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (53s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (53s / no limit)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (54s / no limit)[K[     [0;31m*[0m] (2 of 2) A start job is running for prehandle.service (54s / 5min 31s)[K[    [0;31m*[0;1;31m*[0m] (2 of 2) A start job is running for prehandle.service (55s / 5min 31s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for prehandle.service (55s / 5min 31s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (56s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (56s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (57s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for prehandle.service (57s / 5min 31s)[K[[0m[0;31m*     [0m] (2 of 2) A start job is running for prehandle.service (58s / 5min 31s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for prehandle.service (58s / 5min 31s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (59s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (59s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for prehandle.service (1min / 5min 31s)[K[    [0;31m*[0;1;31m*[0m] (2 of 2) A start job is running for prehandle.service (1min 1s / 5min 31s)[K[     [0;31m*[0m] (2 of 2) A start job is running for prehandle.service (1min 1s / 5min 31s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 2s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 2s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 3s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for prehandle.service (1min 3s / 5min 31s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for prehandle.service (1min 4s / 5min 31s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for prehandle.service (1min 4s / 5min 31s)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 5s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 5s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 6s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for prehandle.service (1min 6s / 5min 31s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for prehandle.service (1min 7s / 5min 31s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for prehandle.service (1min 7s / 5min 31s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 8s / no limit)[K[     [0;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 8s / no limit)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 9s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for prehandle.service (1min 9s / 5min 31s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for prehandle.service (1min 10s / 5min 31s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for prehandle.service (1min 10s / 5min 31s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 11s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 11s / no limit)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 12s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for prehandle.service (1min 12s / 5min 31s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for prehandle.service (1min 13s / 5min 31s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for prehandle.service (1min 13s / 5min 31s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 14s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 14s / no limit)[K[[0;32m  OK  [0m] Started Session c13 of user database.
+[[0;32m  OK  [0m] Started prehandle.service.
+[    [0;31m*[0;1;31m*[0m] A start job is running for /etc/rc.d/rc.local Compatibility (1min 21s / no limit)[K[     [0;31m*[0m] A start job is running for /etc/rc.d/rc.local Compatibility (1min 22s / no limit)[K[    [0;31m*[0;1;31m*[0m] A start job is running for /etc/rc.d/rc.local Compatibility (1min 22s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for /etc/rc.d/rc.local Compatibility (1min 23s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for /etc/rc.d/rc.local Compatibility (1min 23s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for /etc/rc.d/rc.local Compatibility (1min 24s / no limit)[K[[0;32m  OK  [0m] Started /etc/rc.d/rc.local Compatibility.
+         Starting Terminate Plymouth Boot Screen...
+         Starting Hold until boot process finishes up...
+------------ Wed Feb 24 11:31:43 CST 2021 ------------
+[[0;32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[0;32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-root.
+[[0;32m  OK  [0m] Reached target Initrd Root Device.
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-swap.
+         Starting Resume from hibernation using device /dev/mapper/cl_master-swap...
+[[0;32m  OK  [0m] Started Resume from hibernation using device /dev/mapper/cl_master-swap.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Started dracut initqueue hook.
+         Starting File System Check on /dev/mapper/cl_master-root...
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Started File System Check on /dev/mapper/cl_master-root.
+         Mounting /sysroot...
+[[0;32m  OK  [0m] Mounted /sysroot.
+[[0;32m  OK  [0m] Reached target Initrd Root File System.
+         Starting Reload Configuration from the Real Root...
+[[0;32m  OK  [0m] Started Reload Configuration from the Real Root.
+[[0;32m  OK  [0m] Reached target Initrd File Systems.
+[[0;32m  OK  [0m] Reached target Initrd Default Target.
+         Starting dracut pre-pivot and cleanup hook...
+[[0;32m  OK  [0m] Started dracut pre-pivot and cleanup hook.
+         Starting Cleaning Up and Shutting Down Daemons...
+[[0;32m  OK  [0m] Stopped dracut pre-pivot and cleanup hook.
+[[0;32m  OK  [0m] Stopped target Remote File Systems.
+[[0;32m  OK  [0m] Stopped target Timers.
+         Starting Setup Virtual Console...
+[[0;32m  OK  [0m] Stopped target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Stopped dracut initqueue hook.
+[[0;32m  OK  [0m] Stopped target Initrd Default Target.
+[[0;32m  OK  [0m] Stopped target Initrd Root Device.
+[[0;32m  OK  [0m] Stopped target Basic System.
+[[0;32m  OK  [0m] Stopped target Slices.
+[[0;32m  OK  [0m] Stopped target Sockets.
+[[0;32m  OK  [0m] Stopped target Paths.
+[[0;32m  OK  [0m] Stopped target System Initialization.
+[[0;32m  OK  [0m] Stopped udev Coldplug all Devices.
+         Stopping udev Kernel Device Manager...
+[[0;32m  OK  [0m] Stopped Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Stopped target Swap.
+[[0;32m  OK  [0m] Stopped target Local File Systems.
+[[0;32m  OK  [0m] Stopped target Local File Systems (Pre).
+[[0;32m  OK  [0m] Stopped Apply Kernel Variables.
+         Starting Plymouth switch root service...
+[[0;32m  OK  [0m] Stopped udev Kernel Device Manager.
+[[0;32m  OK  [0m] Stopped dracut pre-udev hook.
+[[0;32m  OK  [0m] Stopped dracut cmdline hook.
+         Stopping Hardware RNG Entropy Gatherer Daemon...
+[[0;32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+[[0;32m  OK  [0m] Stopped Create list of required static device nodes for the current kernel.
+[[0;32m  OK  [0m] Closed udev Kernel Socket.
+[[0;32m  OK  [0m] Closed udev Control Socket.
+         Starting Cleanup udevd DB...
+[[0;32m  OK  [0m] Stopped Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Cleaning Up and Shutting Down Daemons.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Started Cleanup udevd DB.
+[[0;32m  OK  [0m] Reached target Switch Root.
+[[0;32m  OK  [0m] Started Plymouth switch root service.
+         Starting Switch Root...
+
+Welcome to [0;31mCentOS Linux 8 (Core)[0m!
+
+[[0;32m  OK  [0m] Stopped Switch Root.
+[[0;32m  OK  [0m] Stopped Journal Service.
+         Starting Journal Service...
+[[0;32m  OK  [0m] Listening on initctl Compatibility Named Pipe.
+[[0;32m  OK  [0m] Listening on Process Core Dump Socket.
+[[0;32m  OK  [0m] Started Forward Password Requests to Wall Directory Watch.
+         Activating swap /dev/mapper/cl_master-swap...
+[[0;32m  OK  [0m] Set up automount Arbitrary Executable File Formats File System Automount Point.
+[[0;32m  OK  [0m] Created slice system-getty.slice.
+[[0;32m  OK  [0m] Created slice system-systemd\x2dfsck.slice.
+[[0;32m  OK  [0m] Reached target Paths.
+         Mounting POSIX Message Queue File System...
+         Starting Apply Kernel Variables...
+[[0;32m  OK  [0m] Created slice User and Session Slice.
+[[0;32m  OK  [0m] Stopped target Switch Root.
+         Starting Setup Virtual Console...
+[[0;32m  OK  [0m] Stopped target Initrd Root File System.
+[[0;32m  OK  [0m] Stopped target Initrd File Systems.
+[[0;32m  OK  [0m] Reached target Local Encrypted Volumes.
+         Mounting Huge Pages File System...
+[[0;32m  OK  [0m] Stopped File System Check on Root Device.
+[[0;32m  OK  [0m] Listening on udev Control Socket.
+         Mounting Kernel Debug File System...
+[[0;32m  OK  [0m] Listening on Device-mapper event daemon FIFOs.
+[[0;32m  OK  [0m] Listening on udev Kernel Socket.
+         Starting udev Coldplug all Devices...
+[[0;32m  OK  [0m] Reached target Slices.
+         Starting Create list of required static device nodes for the current kernel...
+         Starting Remount Root and Kernel File Systems...
+[[0;32m  OK  [0m] Listening on LVM2 poll daemon socket.
+[[0;32m  OK  [0m] Created slice system-serial\x2dgetty.slice.
+[[0;32m  OK  [0m] Listening on multipathd control socket.
+         Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[[0;32m  OK  [0m] Activated swap /dev/mapper/cl_master-swap.
+[[0;32m  OK  [0m] Started Journal Service.
+[[0;32m  OK  [0m] Mounted POSIX Message Queue File System.
+[[0;32m  OK  [0m] Started Apply Kernel Variables.
+[[0;32m  OK  [0m] Mounted Huge Pages File System.
+[[0;32m  OK  [0m] Mounted Kernel Debug File System.
+[[0;32m  OK  [0m] Started Create list of required static device nodes for the current kernel.
+[[0;32m  OK  [0m] Started Remount Root and Kernel File Systems.
+         Starting Load/Save Random Seed...
+         Starting Create Static Device Nodes in /dev...
+         Starting Flush Journal to Persistent Storage...
+[[0;32m  OK  [0m] Reached target Swap.
+[[0;32m  OK  [0m] Started Load/Save Random Seed.
+[[0;32m  OK  [0m] Started Setup Virtual Console.
+[[0;32m  OK  [0m] Started Flush Journal to Persistent Storage.
+[[0;32m  OK  [0m] Started udev Coldplug all Devices.
+         Starting udev Wait for Complete Device Initialization...
+[[0;32m  OK  [0m] Started Create Static Device Nodes in /dev.
+         Starting udev Kernel Device Manager...
+[[0;32m  OK  [0m] Started udev Kernel Device Manager.
+[[0;32m  OK  [0m] Created slice system-lvm2\x2dpvscan.slice.
+         Starting LVM event activation on device 8:3...
+[[0;32m  OK  [0m] Found device /dev/mapper/cl_master-home.
+[[0;32m  OK  [0m] Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[[0;32m  OK  [0m] Started LVM event activation on device 8:3.
+[[0;32m  OK  [0m] Started udev Wait for Complete Device Initialization.
+[[0;32m  OK  [0m] Reached target Local File Systems (Pre).
+         Mounting /home...
+         Starting File System Check on /dev/disk/by-uuid/bfb88021-8282-46fa-87df-65ceb078deee...
+[[0;32m  OK  [0m] Started File System Check on /dev/disk/by-uuid/bfb88021-8282-46fa-87df-65ceb078deee.
+         Mounting /boot...
+[[0;32m  OK  [0m] Mounted /boot.
+[[0;32m  OK  [0m] Mounted /home.
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Restore /run/initramfs on shutdown...
+         Starting Import network configuration from initramfs...
+         Starting Tell Plymouth To Write Out Runtime Data...
+[[0;32m  OK  [0m] Started Restore /run/initramfs on shutdown.
+[[0;32m  OK  [0m] Started Import network configuration from initramfs.
+         Starting Create Volatile Files and Directories...
+[[0;32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Security Auditing Service...
+[[0;32m  OK  [0m] Started Security Auditing Service.
+         Starting Update UTMP about System Boot/Shutdown...
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Started dnf makecache --timer.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsid Socket.
+[[0;32m  OK  [0m] Started Generate summary of yesterday's process accounting.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Listening on Open-iSCSI iscsiuio Socket.
+[[0;32m  OK  [0m] Listening on SSSD Kerberos Cache Manager responder socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Reached target Basic System.
+[[0;32m  OK  [0m] Started Self Monitoring and Reporting Technology (SMART) Daemon.
+         Starting NTP client/server...
+         Starting Authorization Manager...
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+[[0;32m  OK  [0m] Started irqbalance daemon.
+         Starting Load CPU microcode update...
+[[0;32m  OK  [0m] Started Machine Check Exception Logging Daemon.
+         Starting VDO volume services...
+[[0;32m  OK  [0m] Started daily update of the root trust anchor for DNSSEC.
+         Starting Resets System Activity Logs...
+         Starting Hardware RNG Entropy Gatherer Wake threshold service...
+[[0;32m  OK  [0m] Started Run system activity accounting tool every 10 minutes.
+[[0;32m  OK  [0m] Reached target Timers.
+         Starting IPv4 firewall with iptables...
+         Starting System Security Services Daemon...
+[[0;32m  OK  [0m] Started libstoragemgmt plug-in server daemon.
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Wake threshold service.
+[[0;32m  OK  [0m] Started Hardware RNG Entropy Gatherer Daemon.
+[[0;32m  OK  [0m] Started Load CPU microcode update.
+[[0;32m  OK  [0m] Started Resets System Activity Logs.
+[[0;32m  OK  [0m] Started IPv4 firewall with iptables.
+[[0;32m  OK  [0m] Started NTP client/server.
+         Starting LSB: Bring up/down networking...
+[[0;32m  OK  [0m] Started Authorization Manager.
+[[0;32m  OK  [0m] Started System Security Services Daemon.
+[[0;32m  OK  [0m] Reached target User and Group Name Lookups.
+         Starting Login Service...
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Started VDO volume services.
+[[0m[0;31m*     [0m] A start job is running for LSB: Bring up/down networking (11s / 5min 5s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for LSB: Bring up/down networking (12s / 5min 5s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for LSB: Bring up/down networking (12s / 5min 5s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for LSB: Bring up/down networking (13s / 5min 5s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for LSB: Bring up/down networking (13s / 5min 5s)[K[[0;32m  OK  [0m] Started LSB: Bring up/down networking.
+[[0;32m  OK  [0m] Reached target Network.
+         Starting Logout off all iSCSI sessions on shutdown...
+         Starting Zabbix Agent...
+         Starting Fail2Ban Service...
+         Starting Enable periodic update of entitlement certificates....
+         Starting /etc/rc.d/rc.local Compatibility...
+         Starting PostgreSQL database server...
+         Starting Dynamic System Tuning Daemon...
+[[0;32m  OK  [0m] Reached target Network is Online.
+         Starting System Logging Service...
+         Starting SYSV: OpenSSH server daemon...
+[[0;32m  OK  [0m] Started Logout off all iSCSI sessions on shutdown.
+[[0;32m  OK  [0m] Started Fail2Ban Service.
+[[0;32m  OK  [0m] Started Enable periodic update of entitlement certificates..
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+         Starting Permit User Sessions...
+         Starting Crash recovery kernel arming...
+[[0;32m  OK  [0m] Started Permit User Sessions.
+[[0;32m  OK  [0m] Started Job spooling tools.
+[[0;32m  OK  [0m] Started Command Scheduler.
+[[0;32m  OK  [0m] Started System Logging Service.
+[[0;32m  OK  [0m] Started SYSV: OpenSSH server daemon.
+         Starting delfockfile.service...
+         Starting LSB: start and stop MySQL...
+[[0;32m  OK  [0m] Started delfockfile.service.
+[[0;32m  OK  [0m] Started Zabbix Agent.
+[[0;32m  OK  [0m] Created slice system-user\x2druntime\x2ddir.slice.
+[[0;32m  OK  [0m] Started /run/user/1000 mount wrapper.
+[[0;32m  OK  [0m] Created slice User Slice of UID 1000.
+         Starting User Manager for UID 1000...
+[[0;32m  OK  [0m] Started Session c1 of user database.
+[[0;32m  OK  [0m] Started PostgreSQL database server.
+[[0;32m  OK  [0m] Started User Manager for UID 1000.
+[[0;32m  OK  [0m] Started Dynamic System Tuning Daemon.
+[[0;32m  OK  [0m] Started Crash recovery kernel arming.
+[[0;32m  OK  [0m] Started LSB: start and stop MySQL.
+         Starting elasticsearch.service...
+[[0;32m  OK  [0m] Started Session c2 of user database.
+[[0;32m  OK  [0m] Created slice User Slice of UID 0.
+[[0;32m  OK  [0m] Started /run/user/0 mount wrapper.
+         Starting User Manager for UID 0...
+[[0;32m  OK  [0m] Started Session 2 of user root.
+[[0;32m  OK  [0m] Started Session 3 of user root.
+[[0;32m  OK  [0m] Started User Manager for UID 0.
+[[0;32m  OK  [0m] Started Session c3 of user database.
+[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for elasticsearch.service (29s / 5min 17s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (29s / no limit)[K[     [0;31m*[0m] (1 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (30s / no limit)[K[[0;32m  OK  [0m] Started elasticsearch.service.
+         Starting redisnew.service...
+[[0;32m  OK  [0m] Started Session c4 of user database.
+[[0;32m  OK  [0m] Started redisnew.service.
+         Starting SYSV: Redis is a persistent key-value database...
+         Starting SYSV: Redis is a persistent key-value database...
+[[0;32m  OK  [0m] Started SYSV: Redis is a persistent key-value database.
+[[0;32m  OK  [0m] Started SYSV: Redis is a persistent key-value database.
+         Starting scheduler_RB.service...
+         Starting traceManage.service...
+         Starting newdecode.service...
+         Starting SYSV: Tomcat AutoRun Services...
+         Starting licenseclient.service...
+         Starting spark.service...
+         Starting sysif.service...
+         Starting msgdriver.service...
+         Starting prehandle.service...
+         Starting ladder.service...
+         Starting deploy.service...
+         Starting alarmPush.service...
+         Starting alarm_New.service...
+[[0;32m  OK  [0m] Started ladder.service.
+[[0;32m  OK  [0m] Started alarmPush.service.
+[[0;32m  OK  [0m] Started msgdriver.service.
+[[0;32m  OK  [0m] Started Session c5 of user database.
+[[0;32m  OK  [0m] Started Session c6 of user database.
+[[0;32m  OK  [0m] Started Session c7 of user database.
+[[0;32m  OK  [0m] Started Session c8 of user database.
+[[0;32m  OK  [0m] Started Session c9 of user database.
+[[0;32m  OK  [0m] Started Session c10 of user database.
+[[0;32m  OK  [0m] Started deploy.service.
+[[0;32m  OK  [0m] Started traceManage.service.
+[[0;32m  OK  [0m] Started scheduler_RB.service.
+[[0;32m  OK  [0m] Started newdecode.service.
+[[0;32m  OK  [0m] Started alarm_New.service.
+[[0;32m  OK  [0m] Started Session c11 of user database.
+[[0;32m  OK  [0m] Started licenseclient.service.
+[[0;32m  OK  [0m] Started sysif.service.
+[[0;32m  OK  [0m] Started SYSV: Tomcat AutoRun Services.
+         Starting GVM Manager...
+[[0;32m  OK  [0m] Started GVM Manager.
+[[0;32m  OK  [0m] Started spark.service.
+[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (47s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (47s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (48s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (48s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (49s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for prehandle.service (49s / 5min 30s)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for prehandle.service (50s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (50s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (51s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (51s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (52s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for prehandle.service (52s / 5min 30s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (53s / 5min 30s)[K[     [0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (53s / no limit)[K[    [0;31m*[0;1;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (54s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (54s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (55s / 5min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (1 of 2) A start job is running for prehandle.service (55s / 5min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (56s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (56s / no limit)[K[[0m[0;31m*     [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (57s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (57s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (58s / 5min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (1 of 2) A start job is running for prehandle.service (58s / 5min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (59s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (59s / no limit)[K[    [0;31m*[0;1;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min / no limit)[K[     [0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min / no limit)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 1s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 1s / 5min 30s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (1min 2s / 5min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 2s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 3s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 3s / no limit)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for prehandle.service (1min 4s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for prehandle.service (1min 4s / 5min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (1min 5s / 5min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 5s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 6s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 6s / no limit)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 7s / 5min 30s)[K[     [0;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 7s / 5min 30s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 8s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 8s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 9s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 9s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (1min 10s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (1 of 2) A start job is running for prehandle.service (1min 10s / 5min 30s)[K[[0m[0;31m*     [0m] (1 of 2) A start job is running for prehandle.service (1min 11s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 11s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 12s / no limit)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 12s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (1min 13s / 5min 30s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 13s / 5min 30s)[K[    [0;31m*[0;1;31m*[0m] (1 of 2) A start job is running for prehandle.service (1min 14s / 5min 30s)[K[     [0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 14s / no limit)[K[    [0;31m*[0;1;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 15s / no limit)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 15s / no limit)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] (1 of 2) A start job is running for prehandle.service (1min 16s / 5min 30s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] (1 of 2) A start job is running for prehandle.service (1min 16s / 5min 30s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (1min 17s / 5min 30s)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 17s / no limit)[K[[0m[0;31m*     [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 18s / no limit)[K[[0;1;31m*[0m[0;31m*    [0m] (2 of 2) A start job is running for /etc/rc.d/rc.local Compatibility (1min 18s / no limit)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] (1 of 2) A start job is running for prehandle.service (1min 18s / 5min 30s)[K[[0;32m  OK  [0m] Started Session c12 of user database.
+[[0;32m  OK  [0m] Started prehandle.service.
+[[0;32m  OK  [0m] Started Session 5 of user root.
+[[0;32m  OK  [0m] Started Session 6 of user root.
+[[0;32m  OK  [0m] Started /etc/rc.d/rc.local Compatibility.
+         Starting Hold until boot process finishes up...
+         Starting Terminate Plymouth Boot Screen...

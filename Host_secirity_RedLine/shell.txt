@@ -1,0 +1,6 @@
+bind
+
+yum update bind-license
+yum update bind-libs-lite
+yum update bind-export-libs
+
